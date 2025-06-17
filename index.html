@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tikTacToe Game</title>
+    <link rel="stylesheet" href="tikTacToe.css">
+</head>
+<body class="body">
+    <header>
+        <div class="header">Tic Tac Toc Game</div>
+    </header>
+    <div class="matrix" id="game">
+      <div class="row row1">
+        <button class="button green" onclick="click1(this)" id="0"></button>
+        <button class="button green" onclick="click1(this)" id="1"></button>
+        <button class="button green" onclick="click1(this)" id="2"></button>
+      </div>
+      <div class="row row1">
+        <button class="button green" onclick="click1(this)" id="3"></button>
+        <button class="button green" onclick="click1(this)" id="4"></button>
+        <button class="button green" onclick="click1(this)" id="5"></button>
+      </div>
+      <div class="row row1">
+        <button class="button green" onclick="click1(this)" id="6"></button>
+        <button class="button green" onclick="click1(this)" id="7"></button>
+        <button class="button green" onclick="click1(this)" id="8"></button>
+      </div>
+    </div>
+    <div class="finish display" id="complete">
+      <div class="congo" id="text"> </div>
+      <button class="restart" id="button1" onclick="restart()">RESTART</button>
+    </div>
+    <div class="chance" id="chance"></div>
+    <script src="ticTacToe.js"></script>
+</body>
+</html>
