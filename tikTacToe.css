@@ -8,7 +8,7 @@
     gap: 8px!important;
   }
   .header,.chance{
-    width: 85vw!important;
+    width: 82vw!important;
     font-size:8vw!important;
     
   }
@@ -19,8 +19,8 @@
     justify-content: center!important;
   }
   .button{
-    width: 28vw!important;
-    height: 28vw!important;
+    width: 26vw!important;
+    height: 26vw!important;
   }
   .button{
     font-size: 20vw!important;
@@ -36,7 +36,8 @@
 
 
 .body{
-    margin: 20px;
+    margin: 0;
+  padding:25px;
     display: flex;
     flex-direction: column;
     width: 90vw;
